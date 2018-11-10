@@ -6,7 +6,7 @@ And finally we will perform a interesting experiment that stack our Naïve Baye
 
 
 
-<img align="right" src="images/result_img.png" width="350">
+<img align="center" src="images/result_img.png" width="500">
 we can see from the above result:
  * The images' pixels is very hard to fullfill the Gaussian distribution assumption so both two statistical algorithms performance quite poor in image classification.
  * Due to the CIFAR10 is color image, it work worse than MNIST which is black-whiter, since the distribution of each color pixel is more far away from Gaussian distribution.
