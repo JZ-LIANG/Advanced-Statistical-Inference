@@ -6,12 +6,8 @@ And finally we will perform a interesting experiment that stack our Naïve Baye
 
 
 
-<p align="center">
-<img src="images/result_img.png" width="640">
-</p>
-
-
-we can see from the result on right:
+<img align="right" src="images/result_img.png" width="350">
+we can see from the above result:
  * The images' pixels is very hard to fullfill the Gaussian distribution assumption so both two statistical algorithms performance quite poor in image classification.
  * Due to the CIFAR10 is color image, it work worse than MNIST which is black-whiter, since the distribution of each color pixel is more far away from Gaussian distribution.
  * CNN improves both two algorihtm, means the lower CNN layer can help to extract useful pattern features from image.
